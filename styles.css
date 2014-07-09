@@ -1,0 +1,24 @@
+aside.navbar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+	border-right: 1px solid #eee;
+	width: 125px;
+	z-index: 99;
+}
+aside.navbar h1.logo {
+	position: relative;
+	margin-left: 52px;
+	margin-top: 35px;
+	background-color: #000;
+	border-radius: 100px;
+	width: 42px;
+	height: 42px;
+	transition-property: all;
+	transition-duration: .5s;
+}
+section {
+	margin-left: 125px;
+}
